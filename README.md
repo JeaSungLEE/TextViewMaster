@@ -4,6 +4,8 @@
 [![Platform](https://img.shields.io/cocoapods/p/JSGrowingTextView.svg?style=flat)](http://cocoapods.org/pods/JSGrowingTextView)
 [![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 ## Introduce
+![demo](https://github.com/JeaSungLEE/JSGrowingTextView/blob/master/intro.gif)
+
 Text view that grows with text input
 
 ## Requirements
