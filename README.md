@@ -9,6 +9,17 @@ Text view that grows with text input
 ## Requirements
 * iOS9.0 or higher version
 * Swift4
+
+
+## Installation
+### Cocoapods
+
+JSGrowingTextView is available through [CocoaPods](http://cocoapods.org).
+
+```ruby
+pod 'JSGrowingTextView'
+```
+
 ## Usage
 ### Customization
 ```ruby
