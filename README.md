@@ -1,5 +1,6 @@
 # JSGrowingTextView
-커지는 텍스트 뷰
+Text view that grows with text input
+
 ## Requirements
 * iOS9.0 or higher version
 * Swift4
