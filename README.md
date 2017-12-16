@@ -23,6 +23,10 @@ pod 'JSGrowingTextView'
 ```
 
 ## Usage
+
+```ruby
+import JSGrowingTextView
+```
 ### Customization
 ```ruby
 growingTextView.isAnimate = true                                               //에니메이션 사용여부
