@@ -4,7 +4,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/TextViewMaster.svg?style=flat)](http://cocoapods.org/pods/TextViewMaster)
 [![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
 ## Introduce
-<img width="200" alt="image" src="https://github.com/JeaSungLEE/TextViewMaster/blob/master/intro.gif">
+<img width="300" alt="image" src="https://github.com/JeaSungLEE/TextViewMaster/blob/master/intro.gif">
 
 Text view that grows with text input
 
