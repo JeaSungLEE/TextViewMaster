@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
                    Easy custom placeholder and growing textView.
 DESC
   s.homepage     = "https://github.com/JeaSungLEE/TextViewMaster"
-  s.screenshots  = "https://github.com/JeaSungLEE/TextViewMaster/blob/master/intro.gif"
+#  s.screenshots  = "https://github.com/JeaSungLEE/TextViewMaster/blob/master/intro.gif"
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
   s.author       = { "jeasung.lee" => "wotjdzz1@naver.com" }
   s.platform     = :ios, "9.0"
