@@ -13,12 +13,12 @@ Pod::Spec.new do |s|
   s.version      = "1.1.0"
   s.summary      = "TextViewMaster."
   s.description  = <<-DESC
-                   Text view that grows with text input.
+                   Easy custom placeholder and growing textView.
 DESC
   s.homepage     = "https://github.com/JeaSungLEE/TextViewMaster"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://github.com/JeaSungLEE/TextViewMaster/blob/master/intro.gif"
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
-  s.author             = { "jeasung.lee" => "wotjdzz1@naver.com" }
+  s.author       = { "jeasung.lee" => "wotjdzz1@naver.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/JeaSungLEE/TextViewMaster.git", :tag => "#{s.version}" }
   s.source_files  = "TextViewMaster/**/*.swift"
