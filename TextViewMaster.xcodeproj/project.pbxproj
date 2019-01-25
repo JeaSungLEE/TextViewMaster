@@ -169,7 +169,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 39AF2F611FDF922700F55150 /* Build configuration list for PBXProject "JSGrowingTextView" */;
+			buildConfigurationList = 39AF2F611FDF922700F55150 /* Build configuration list for PBXProject "TextViewMaster" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		39AF2F611FDF922700F55150 /* Build configuration list for PBXProject "JSGrowingTextView" */ = {
+		39AF2F611FDF922700F55150 /* Build configuration list for PBXProject "TextViewMaster" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				39AF2F6D1FDF922700F55150 /* Debug */,
