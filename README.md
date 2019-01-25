@@ -6,7 +6,7 @@
 ## Introduce
 <img width="300" alt="image" src="https://github.com/JeaSungLEE/TextViewMaster/blob/master/intro.gif">
 
-Text view that grows with text input
+Easy custom placeholder and growing textView
 
 ## Requirements
 * iOS9.0 or higher version
