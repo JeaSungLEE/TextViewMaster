@@ -10,7 +10,7 @@ Text view that grows with text input
 
 ## Requirements
 * iOS9.0 or higher version
-* Swift4
+* Swift4.2
 
 
 ## Installation
