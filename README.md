@@ -1,4 +1,4 @@
-# JSGrowingTextView
+# TextViewMaster
 [![Version](https://img.shields.io/cocoapods/v/TextViewMaster.svg?style=flat)](http://cocoapods.org/pods/TextViewMaster)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/jeasungLEE/TextViewMaster/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/TextViewMaster.svg?style=flat)](http://cocoapods.org/pods/TextViewMaster)
