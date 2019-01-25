@@ -1,10 +1,10 @@
 # JSGrowingTextView
-[![Version](https://img.shields.io/cocoapods/v/JSGrowingTextView.svg?style=flat)](http://cocoapods.org/pods/JSGrowingTextView)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/jeasungLEE/JSGrowingTextView/blob/master/LICENSE)
-[![Platform](https://img.shields.io/cocoapods/p/JSGrowingTextView.svg?style=flat)](http://cocoapods.org/pods/JSGrowingTextView)
-[![Swift 4.0](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Version](https://img.shields.io/cocoapods/v/TextViewMaster.svg?style=flat)](http://cocoapods.org/pods/TextViewMaster)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/jeasungLEE/TextViewMaster/blob/master/LICENSE)
+[![Platform](https://img.shields.io/cocoapods/p/TextViewMaster.svg?style=flat)](http://cocoapods.org/pods/TextViewMaster)
+[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
 ## Introduce
-![demo](https://github.com/JeaSungLEE/JSGrowingTextView/blob/master/intro.gif)
+![demo](https://github.com/JeaSungLEE/TextViewMaster/blob/master/intro.gif)
 
 Text view that grows with text input
 
@@ -16,16 +16,16 @@ Text view that grows with text input
 ## Installation
 ### Cocoapods
 
-JSGrowingTextView is available through [CocoaPods](http://cocoapods.org).
+TextViewMaster is available through [CocoaPods](http://cocoapods.org).
 
 ```ruby
-pod 'JSGrowingTextView'
+pod 'TextViewMaster'
 ```
 
 ## Usage
 
 ```ruby
-import JSGrowingTextView
+import TextViewMaster
 ```
 ### Customization
 ```ruby
@@ -45,22 +45,22 @@ view.addSubview(inputView)
 Reference example project
         
 ### Storyboard
-1. TextView Set class to "JSGrowingTextView".
+1. TextView Set class to "TextViewMaster".
 2. Set delegate to it's view controller
 
 ### Delegate
-JSGrowingTextView inherits from UITextViewDelegate.
+TextViewMaster inherits from UITextViewDelegate.
 You can also use UITextViewDelegate by default.
 Added or modified functions
 ```ruby
-func growingTextView(growingTextView: JSGrowingTextView, shouldChangeTextInRange range:NSRange, replacementText text:String) -> Bool
-func growingTextViewShouldReturn(growingTextView: JSGrowingTextView) 
-func growingTextView(growingTextView: JSGrowingTextView, willChangeHeight height:CGFloat)
-func growingTextView(growingTextView: JSGrowingTextView, didChangeHeight height:CGFloat)
+func growingTextView(growingTextView: TextViewMaster, shouldChangeTextInRange range:NSRange, replacementText text:String) -> Bool
+func growingTextViewShouldReturn(growingTextView: TextViewMaster) 
+func growingTextView(growingTextView: TextViewMaster, willChangeHeight height:CGFloat)
+func growingTextView(growingTextView: TextViewMaster, didChangeHeight height:CGFloat)
 ```
 
 ## Author
 [jeasungLEE](https://github.com/jeasungLEE)
 
 ## License
-JSGrowingTextView is available under the MIT license.
+TextViewMaster is available under the MIT license.
