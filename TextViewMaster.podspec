@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 DESC
   s.homepage     = "https://github.com/JeaSungLEE/TextViewMaster"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-  s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  s.license      = { :type => "MIT", :file => "LICENSE.md" }
   s.author             = { "jeasung.lee" => "wotjdzz1@naver.com" }
   s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/JeaSungLEE/TextViewMaster.git", :tag => "#{s.version}" }
