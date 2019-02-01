@@ -37,9 +37,15 @@ class ViewController: UIViewController {
         inputView.addSubview(textViewMaster)
         inputView.addSubview(sendLabel)
 
-        inputView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
-        inputView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
-        bottomConstraint = inputView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        if #available(iOS 11.0, *) {
+            inputView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor).isActive = true
+            bottomConstraint = inputView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
+            inputView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor).isActive = true
+        } else {
+            inputView.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+            bottomConstraint = inputView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+            inputView.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        }
         bottomConstraint?.isActive = true
         
         sendLabel.bottomAnchor.constraint(equalTo: inputView.bottomAnchor).isActive = true
